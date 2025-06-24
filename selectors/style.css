@@ -1,0 +1,20 @@
+/* 전체 선택 */
+*{
+    font-family:"NanumGothic"
+}
+
+/* 내부 선택: A B로 띄어쓰기, ul 안의 li를 선택 */
+ul li{
+    font-style: italic;
+}
+
+/* 동시 선택: AB로 붙여쓰기, li이고 key인 것을 선택 */
+li.key{
+    color:red;
+}
+
+/* 상태별 선택: A:hover, li이고 마우스가 올려진 상태인 것을 선택*/
+li:hover{
+    background-color: darkslateblue;
+    color: white;
+}
